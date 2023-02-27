@@ -1,0 +1,36 @@
+.credCalc {
+  width: 100%;
+  height: 30%;
+  border: 2px solid rgb(239, 111, 65);
+  border-radius: 6px;
+  margin-top: 60px;
+  text-align: center;
+  padding: 20px;
+  color: rgb(240, 121, 9);
+}
+
+.input-calc {
+  border: 1px solid rgb(238, 118, 6);
+  border-radius: 3px;
+  margin: 10px;
+}
+.btn-calc {
+  border: 2px solid rgb(10, 95, 98);
+  border-radius: 6px;
+  color: orangered;
+}
+
+@media (max-width: 1024px) {
+  .credCalc {
+    width: 100%;
+    height: 20rem;
+    margin: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .credCalc {
+    width: 100%;
+    height: 20rem;
+    margin-left: 10px;
+  }
+}

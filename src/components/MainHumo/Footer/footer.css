@@ -1,0 +1,205 @@
+.foot {
+  width: 100%;
+  height: 44rem;
+  background-image: url("https://humo.tj/upload/iblock/4a0/4a01c669d3f4ba9aa867bca2829564d7.png");
+}
+.nash {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.photo-1 {
+  margin-left: 100px;
+  width: 230px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.appstore {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+.apple {
+  padding-left: 10px;
+}
+.text-phone {
+  color: rgb(247, 237, 237);
+  margin-top: 2rem;
+  width: 13rem;
+  font-size: x-large;
+}
+.links {
+  color: rgb(242, 234, 234);
+  text-decoration: none;
+  font-size: larger;
+}
+.links:hover {
+  color: rgb(218, 101, 17);
+}
+.text-foot {
+  color: white;
+}
+.icons {
+  color: orangered;
+  width: 3rem;
+  font-size: x-large;
+}
+.photo {
+  margin-right: 4rem;
+}
+.text-3 {
+  color: white;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.design {
+  border: 3px solid rgb(7, 122, 154);
+  border-radius: 10px;
+  width: 13rem;
+  margin-top: 70px;
+  margin-left: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.somon {
+  color: rgb(55, 233, 55);
+}
+
+@media (max-width: 1024px) {
+  .foot {
+    width: 100%;
+    height: 60rem;
+    background-image: url("https://humo.tj/upload/iblock/4a0/4a01c669d3f4ba9aa867bca2829564d7.png");
+    background-size: cover;
+  }
+  .photo-1 {
+    margin-top: 40px;
+  }
+  .foot-1 {
+    padding-bottom: 150px;
+    margin-bottom: 150px;
+  }
+  .nash {
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+  .links-2 {
+    margin-bottom: 50px;
+  }
+  .icons-2 {
+    margin-bottom: 50px;
+  }
+
+  .text-1 {
+    display: none;
+  }
+  .photo-1 {
+    margin-left: 250px;
+    width: 200px;
+    margin-bottom: 150px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .foot-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 180px;
+  }
+  .appstore {
+    display: none;
+    justify-content: flex-start;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-top: 30px;
+  }
+  .apple {
+    padding-left: 10px;
+  }
+  .text-phone {
+    color: rgb(247, 237, 237);
+    margin-top: 2rem;
+    width: 13rem;
+    font-size: x-large;
+  }
+  .links {
+    color: rgb(242, 234, 234);
+    text-decoration: none;
+    font-size: larger;
+  }
+  .links:hover {
+    color: rgb(218, 101, 17);
+  }
+  .icons {
+    width: 3rem;
+    font-size: x-large;
+  }
+  .photo {
+    margin-right: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .foot {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://humo.tj/upload/iblock/4a0/4a01c669d3f4ba9aa867bca2829564d7.png");
+    background-size: cover;
+  }
+  .text-3 {
+    display: none;
+  }
+
+  .nash {
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .foot-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .text-1 {
+    display: none;
+  }
+  .links {
+    color: rgb(242, 234, 234);
+    text-decoration: none;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+  }
+  .links:hover {
+    color: rgb(218, 101, 17);
+  }
+  .icons-2 {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .design {
+    align-content: center;
+    margin-left: 300px;
+    margin-bottom: 200px;
+  }
+}

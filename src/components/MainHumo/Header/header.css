@@ -1,0 +1,33 @@
+.log-btn {
+  background-color: rgb(237, 101, 11);
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+  color: green;
+  margin-left: 1300px;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(174, 15, 119);
+  height: 3rem;
+  font-size: small;
+  padding: 0 10px;
+}
+.e-bank {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: large;
+}
+@media (max-width: 1024px) {
+  .log-btn {
+    margin-left: 800px;
+  }
+}
+@media (max-width: 768px) {
+  .log-btn {
+    margin-left: 550px;
+  }
+}

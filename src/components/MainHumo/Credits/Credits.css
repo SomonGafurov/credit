@@ -1,0 +1,233 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #a6a1a1;
+}
+
+.container-3 {
+  box-shadow: 0px 0px 12px rgb(255, 255, 255);
+  background-color: #faf9fa;
+  width: 519px;
+  height: 650px;
+  border-radius: 8px;
+  padding: 3rem;
+}
+
+.text-agro {
+  width: 70%;
+  height: 70rem;
+  position: relative;
+  background-color: rgb(245, 238, 238);
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.text-agro-b {
+  width: 70%;
+  height: 55rem;
+  position: relative;
+  background-color: rgb(245, 238, 238);
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.text-agro-a {
+  width: 70%;
+  height: 68rem;
+  position: relative;
+  background-color: rgb(245, 238, 238);
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.text-agro-m {
+  width: 70%;
+  height: 50rem;
+  position: relative;
+  background-color: rgb(245, 238, 238);
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.text-agro-p {
+  width: 70%;
+  height: 50rem;
+  position: relative;
+  background-color: rgb(245, 238, 238);
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 80px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.text-agro-ed {
+  width: 70%;
+  height: 50rem;
+  position: relative;
+  background-color: rgb(245, 238, 238);
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 100px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.text-agro-1 {
+  width: 70%;
+  height: 70rem;
+  position: relative;
+  background-color: rgb(245, 238, 238);
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 160px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.agro {
+  position: absolute;
+  height: 35rem;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.text-cred-1 {
+  color: black;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+.text-cred {
+  font-weight: 100;
+  color: rgb(234, 109, 42);
+}
+.animal-text {
+  position: relative;
+  padding-top: 7rem;
+  padding-left: 180px;
+  font-size: 60px;
+  color: white;
+  font-weight: 600;
+}
+@media (max-width: 1024px) {
+  .calculator {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+
+  .container-3 {
+    width: 419px;
+    height: 600px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 3rem;
+  }
+
+  .text-agro {
+    width: 80%;
+    height: 70rem;
+    margin-left: 80px;
+    margin-top: 160px;
+  }
+  .text-agro-1 {
+    width: 80%;
+    height: 70rem;
+    margin-left: 80px;
+    margin-top: 160px;
+  }
+  .text-agro-a {
+    width: 80%;
+    height: 68rem;
+    margin-left: 80px;
+    margin-top: 160px;
+  }
+  .text-agro-ed {
+    width: 80%;
+    height: 55rem;
+    margin-left: 80px;
+    margin-top: 160px;
+  }
+  .text-agro-b {
+    width: 80%;
+    height: 60rem;
+    margin-left: 80px;
+    margin-top: 160px;
+  }
+  .text-agro-m {
+    width: 80%;
+    height: 50rem;
+    margin-left: 80px;
+    margin-top: 160px;
+  }
+
+  .agro {
+    position: absolute;
+    height: 35rem;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .animal-text {
+    padding-top: 10rem;
+    padding-left: 80px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 768px) {
+  .text-agro-m {
+    width: 90%;
+    height: 55rem;
+    margin-left: 50px;
+    padding-bottom: 150px;
+  }
+  .text-agro-a {
+    width: 90%;
+    height: 70rem;
+    margin-left: 50px;
+    padding-bottom: 150px;
+  }
+  .text-agro-ed {
+    width: 90%;
+    height: 55rem;
+    margin-left: 50px;
+  }
+  .text-agro-p {
+    width: 90%;
+    height: 58rem;
+    margin-left: 50px;
+    padding-bottom: 150px;
+  }
+  .text-agro-1 {
+    width: 90%;
+    height: 80rem;
+    margin-left: 50px;
+  }
+  .agro {
+    display: none;
+  }
+  .animal-text {
+    display: none;
+  }
+  .calculator {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+
+  .container-3 {
+    width: 419px;
+    height: 600px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 3rem;
+  }
+}
